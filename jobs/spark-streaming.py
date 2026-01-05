@@ -86,3 +86,6 @@ if __name__ == "__main__":
     spark_conn = SparkSession.builder.appName("SocketStreamConsumer").getOrCreate()
 
     start_streaming(spark_conn)
+
+
+# create a datasets folder and add the dataset.
